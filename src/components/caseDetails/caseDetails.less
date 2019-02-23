@@ -1,0 +1,584 @@
+.detail_container {
+  width: 100%;
+  //头部图片div
+  .img_header {
+    position: relative;
+    width: 100%;
+    height: 422px/2;
+    //头部图片
+    .photo_1 {
+      width: 100%;
+      height: 100%;
+    }
+
+    .img {
+      position: absolute;
+      top: 28px/2;
+    }
+
+    .fh {
+      left: 24px/2;
+      width: 19px/2;
+      height: 32px/2;
+    }
+
+    .cd {
+      right: 24px/2;
+      width: 44px/2;
+      height: 32px/2;
+    }
+  }
+
+  h2 {
+    width: 702px/2;
+    font-size: 36px/2;
+    font-family: MicrosoftYaHei-Bold, serif;
+    font-weight: bold;
+    margin: 59px/2 auto 0;
+  }
+
+  //  设计师
+  .stylist {
+    width: 702px/2;
+    margin: 30px/2 auto 0;
+    display: flex;
+    justify-content: space-between;
+    //头像盒子
+    .stylist_main {
+      width: 30%;
+      height: 50px/2;
+      display: flex;
+      //字体
+      span {
+        font-size: 24px/2;
+        font-family: MicrosoftYaHei, serif;
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+        margin-left: 10px/2;
+        line-height: 50px/2;
+      }
+    }
+
+
+    //  头像
+    .stylist_header {
+      width: 50px/2;
+      height: 50px/2;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+
+    }
+
+    //  关注
+    .focus {
+      width: 18%;
+      height: 50px/2;
+      line-height: 50px/2;
+      text-align: center;
+      background: rgba(255, 236, 226, 1);
+      border-radius: 25px/2;
+      font-size: 24px/2;
+      font-family: MicrosoftYaHei, serif;
+      font-weight: 400;
+      color: rgba(233, 85, 4, 1);
+    }
+  }
+
+  //  房屋内容
+  .house_container {
+    width: 712px/2;
+    height: 153px/2;
+    margin: 72px/2 auto 0;
+    box-shadow: 0 0 15px/2 0 rgba(0, 0, 0, 0.08);
+    border-radius: 8px/2;
+    font-size: 24px/2;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+
+    .house_container_one {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        font-size: 24px/2;
+        color: rgba(153, 153, 153, 1);
+        margin-top: 32px/2;
+      }
+
+      span {
+        font-size: 28px/2;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+        margin-top: 18px/2;
+      }
+    }
+  }
+
+  //  文字
+  .font {
+    width: 702px/2;
+    margin: 80px/2 auto 0;
+
+    p, .font_next {
+      font-size: 28px/2;
+      font-weight: 400;
+      line-height: 48px/2;
+    }
+  }
+
+  //  图片_2
+  .photo_2 {
+    width: 702px/2;
+    margin: 60px/2 auto 0;
+
+    .imgText {
+      width: 100%;
+
+      h1 {
+        font-size: 36px/2;
+        padding-bottom: 29px/2;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #333;
+        margin-top: 29px/2;
+      }
+    }
+  }
+
+  //头像、私信
+  .container_head, .container_head2 {
+    padding: 36px/2 0;
+    width: 702px/2;
+    margin: 70px/2 auto 0;
+    display: flex;
+    border-top: 1px solid rgba(248, 248, 248, 1);
+    border-bottom: 1px solid rgba(248, 248, 248, 1);;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 32px/2;
+      font-weight: bold;
+    }
+
+    .center_right {
+      width: 70%;
+      margin-left: 20px/2;
+    }
+
+    p {
+      font-size: 24px/2;
+      font-weight: 400;
+      color: #999999;
+      margin-top: 17px/2;
+    }
+
+    .center {
+      width: 70%;
+      display: flex;
+    }
+
+    .header {
+      width: 100px/2;
+      height: 100px/2;
+      border-radius: 50%;
+    }
+
+    .right {
+      height: 40px/2;
+      color: rgba(233, 85, 4, 1);
+      font-size: 24px/2;
+      display: flex;
+      margin-left: 100px/2;
+      font-weight: 400;
+
+      img {
+        width: 37px/2;
+        height: auto;
+        margin: auto;
+      }
+
+      span {
+        margin-left: 10px/2;
+        line-height: 40px/2;
+      }
+    }
+  }
+
+  //评论icon
+  .comment_container {
+    width: 100%;
+    margin: 50px/2 auto 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+
+    div {
+      font-size: 14px;
+      color: #666;
+      display: flex;
+
+      .first {
+        margin: auto 0 auto 5px;
+      }
+    }
+
+    img {
+      width: 44px/2;
+      height: 43px/2;
+      background: rgba(255, 255, 255, 1);
+      color: #333333;
+    }
+
+    //.tri_top {
+    //  width: 702px/2;
+    //  height: 224px/2;
+    //  box-shadow: 0 0 15px/2 0 rgba(0, 0, 0, 0.1);
+    //  border: 1px solid rgba(219, 219, 219, 1);
+    //  border-radius: 8px;
+    //  position: absolute;
+    //	background: white;
+    //  top: 70px;
+    //	display: flex;
+    //	justify-content: space-around;
+    //	.tri_top_list{
+    //		img{
+    //			width:70px/2;
+    //			height:70px/2;
+    //			margin-top: 50px/2;
+    //		}
+    //		p{
+    //			font-size:28px/2;
+    //			color:rgba(102,102,102,1);
+    //			margin-top: 12px/2;
+    //		}
+    //	}
+    //}
+    //.tri_top:after {
+    //  content: " ";
+    //  position: absolute;
+    //  right: 20px;
+    //  width: 0;
+    //  top: -13px;
+    //  height: 0;
+    //  border-left: 15px solid transparent;
+    //  border-bottom: 15px solid #fff;
+    //  border-right: 15px solid transparent;
+    //}
+    //.tri_top:before {
+    //  content: " ";
+    //  position: absolute;
+    //  top: -15px;
+    //  right: 18px;
+    //  width: 0;
+    //  height: 0;
+    //  border-left: 17px solid transparent;
+    //  border-bottom: 15px solid rgba(219, 219, 219, 1);
+    //  border-right: 17px solid transparent;
+    //}
+  }
+
+  //  评论区域
+  .comment_font {
+    margin-left: 24px/2;
+    margin-top: 100px/2;
+  }
+
+  //  内容二
+  .container_main {
+    width: 100%;
+    height: 770px/2;
+
+    .container_head2 {
+      border: none;
+      height: 80px/2;
+
+      .header {
+        width: 60px/2;
+        height: 60px/2;
+      }
+
+      .right {
+        width: 20px/2;
+        height: 12px/2;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .container_more {
+      width: 702px/2;
+      height: 300px/2;
+      background: white;
+      border-bottom: 1px solid rgba(248, 248, 248, 1);
+      margin: 39px/2 auto 0;
+    }
+
+    .font_txt {
+      width: 702px/2;
+      font-size: 28px/2;
+      font-weight: 400;
+      margin:  auto 0;
+      color: rgba(51, 51, 51, 1);
+      line-height: 48px/2;
+    }
+
+    .btn {
+      font-size: 24px/2;
+      font-weight: 400;
+      color: rgba(102, 102, 102, 1);
+      display: flex;
+      width: 270px/2;
+      justify-content: space-between;
+      float: right;
+
+      .comment, .like {
+        width: 120px/2;
+        height: 50px/2;
+        line-height: 50px/2;
+        text-align: center;
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 24px/2;
+        display: flex;
+
+        img {
+          width: 33px/2;
+          height: 32px/2;
+          margin: auto 6px/2 auto 20px/2;
+        }
+      }
+
+      .comment img {
+        width: 33px/2;
+        height: 32px/2;
+      }
+
+      .like {
+
+        img {
+          width: 30px/2;
+          height: 32px/2;
+          margin: auto 30px/2 auto 20px/2;
+        }
+      }
+    }
+
+    .container_head2 {
+      padding-top: 0;
+    }
+
+    //查看全部评论
+    .more_msg {
+      width: 100%;
+      height: 90px/2;
+      line-height: 90px/2;
+      text-align: center;
+      font-size: 24px/2;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+
+      img {
+        width: 11px/2;
+        height: auto;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  //间距
+  .spaceBetween, .spaceBetween2 {
+    width: 100%;
+    height: 20px/2;
+    background: #F8F8F8;
+  }
+
+  .spaceBetween2 {
+    height: 200px/2;
+  }
+
+  //  其他热门
+  .hot {
+    width: 702px/2;
+    height: 553px/2;
+    background: white;
+    margin: 25px/2 auto 0;
+    //  头部
+    .head {
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 30px/2;
+
+      p {
+        font-size: 36px/2;
+        font-family: MicrosoftYaHei-Bold, serif;
+        display: inline-block;
+        font-weight: bold;
+      }
+
+      .more_1 span {
+        font-size: 28px/2;
+        color: #999999;
+      }
+    }
+
+    //可拖动
+    .log_container {
+      width: 100%;
+      height: 540px/2;
+      margin: 0 auto 40px/2;
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+
+    .container_list {
+      height: 100%;
+      display: flex;
+
+      .list_first {
+        width: 430px/2;
+        height: 378px/2;
+        margin: 51px/2 0 40px/2 10px;
+        box-shadow: 0 5px/2 10px/2 0 rgba(51, 51, 51, 0.08);
+        border-radius: 10px/2;
+
+        img {
+          width: 100%;
+          height: 242px/2;
+          border-radius: 8px/2 8px/2 0 0;
+        }
+
+        .list_header {
+          width: 99px/2;
+          height: 100px/2;
+          border-radius: 50%;
+          border: 3px/2 solid white;
+        }
+
+        .fig_1 .p_1 {
+          padding-left: 22px/2;
+          font-size: 28px/2;
+          font-weight: bold;
+          padding-top: 20px/2;
+          font-family: MicrosoftYaHei-Bold, serif;
+          width: 359px/2;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .fig_1 .p_2 {
+          padding-left: 22px/2;
+          font-size: 24px/2;
+          font-weight: 400;
+          padding-top: 15px/2;
+          color: #666666;
+        }
+      }
+
+      .list_first:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  //底部搜索
+  .footer_search {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    box-shadow: 0 0 15px/2 0 rgba(0, 0, 0, 0.08);
+
+    .publish {
+      width: 580px/2;
+      height: 80px/2;
+      margin: 20px auto 20px/2 24px/2;
+      font-size: 28px/2;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+      background: rgba(248, 248, 248, 1);
+      border-radius: 39px/2;
+      text-indent: 20px/2;
+    }
+
+    .publishOne {
+      font-size: 32px/2;
+      font-weight: bold;
+      color: rgba(153, 153, 153, 1);
+      padding-left: 31px/2;
+    }
+
+    .active {
+      font-size: 32px/2;
+      font-weight: bold;
+      color: #E95504;
+      padding-left: 31px/2;
+    }
+  }
+
+  // 头部模态框
+  .cephalosome {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+    -webkit-tap-highlight-color:transparent;
+
+    .cephalosomebox {
+      width: (240px/2);
+      background: rgba(255, 255, 255, 1);
+      position: relative;
+      top: (90px/2);
+      left: (486px/2);
+
+      .cephalosomeboxlist {
+        width: (240px/2);
+        height: (88px/2);
+        border-bottom: 1px solid #E7E7E7;
+        margin: auto;
+        line-height: (88px/2);
+        font-size: (28px/2);
+        color: rgba(51, 51, 51, 1);
+
+        img {
+          width: (32px/2);
+          height: (36px/2);
+          margin-right: (20px/2);
+          margin-left: (22px/2);
+          vertical-align: middle;
+        }
+
+        .shouye {
+          width: 36px/2;
+          height: auto;
+        }
+
+        .tuichu {
+          width: 32px/2;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+

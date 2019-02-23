@@ -1,0 +1,95 @@
+.renwu_container {
+  width: 100%;
+  //头部
+  .header-container {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 44px;
+        line-height: 44px;
+        display: table;
+        table-layout: fixed;
+        background-color: white;
+  
+        .left {
+          display: table-cell;
+          text-align: left;
+          padding-left: 12.5px;
+  
+          img {
+            margin-top: 15px;
+            width: (19px/2);
+            height: (32px/2);
+          }
+        }
+  
+        .title {
+          display: table-cell;
+          text-align: center;
+          font-size: (36px/2);
+        }
+  
+        .right {
+          display: table-cell;
+          padding-right: 12.5px;
+          text-align: right;
+  
+          img {
+            width: (32px/2);
+            height: (36px/2);
+          }
+        }
+      }
+  h2 {
+    font-size: 36px/2;
+    font-weight: bold;
+    margin: 84px auto 0 35px/2;
+  }
+  //积分
+  .integral {
+    width: 702px/2;
+    height: 149px/2;
+    margin: 30px/2 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(248, 248, 248, 1);
+
+    .integral_left {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 90px/2;
+        height: 90px/2;
+        align-items: center;
+
+      }
+      span {
+        font-size: 32px/2;
+        font-weight: 400;
+        margin-left: 19px/2;
+      }
+    }
+    .integral_right {
+      width: 149px/2;
+      height: 46px/2;
+      line-height: 46px/2;
+      font-size:24px/2;
+      border: 1px solid rgba(233, 85, 4, 1);
+      border-radius: 23px/2;
+      text-align: center;
+      margin-top: 40px/2;
+      color: rgba(233, 85, 4, 1);
+
+    }
+  }
+  //活动
+  .activity{
+    display: block;
+    width:698px/2;
+    height: auto;
+    margin: 135px/2 auto 0 auto;
+  }
+}

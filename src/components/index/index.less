@@ -1,0 +1,1236 @@
+@import "../../../static/css/overall.less";
+
+.index-box {
+  width: 100%;
+
+  .live-white {
+    width: 100%;
+    height: 20px/2;
+    background: #F8F8F8;
+  }
+
+  .guanbi {
+    position: fixed;
+    top: 24px/2;
+    z-index: 4;
+    right: 24px/2;
+    width: 44px/2;
+    height: 44px/2;
+  }
+
+  // 头部模态框
+  .cephalosome {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    -webkit-tap-highlight-color: transparent;
+
+    .cephalosomebox {
+      width: 240px/2;
+      background: rgba(255, 255, 255, 1);
+      position: relative;
+      top: 88px/2;
+      left: 486px/2;
+
+      .cephalosomeboxlist {
+        width: 240px/2;
+        height: 88px/2;
+        border-bottom: 1px solid #E7E7E7;
+        margin: auto;
+        line-height: 88px/2;
+        font-size: 28px/2;
+        color: rgba(51, 51, 51, 1);
+
+        img {
+          width: 32px/2;
+          height: 36px/2;
+          margin-right: 20px/2;
+          margin-left: 22px/2;
+          vertical-align: middle;
+        }
+
+        .shangjia, .huanli {
+          width: 36px/2;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  /*精选 更多*/
+
+  .writing {
+    width: 702px/2;
+    height: 124px/2;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 124px/2;
+
+    p {
+      font-size: 36px/2;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+    }
+
+    div {
+      display: flex;
+
+      img {
+        width: 11px/2;
+        height: 19px/2;
+        margin: auto 0 auto 10px/2;
+      }
+
+      span {
+        font-size: 28px/2;
+        color: rgba(153, 153, 153, 1);
+      }
+    }
+
+    .headers {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+
+  /*头部*/
+
+  header {
+    position: sticky;
+    top: 0;
+    background: white;
+    width: 100%;
+    height: 88px/2;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+
+    .site {
+      height: 100%;
+      font-size: 28px/2;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+      line-height: 88px/2;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        margin: 0 10px/2 0 23px/2;
+      }
+
+      img {
+        width: 20px/2;
+        height: 10px/2;
+        margin: auto;
+      }
+    }
+
+    .logoimg {
+      flex: 1;
+      display: flex;
+
+      .logo {
+        width: 181px/2;
+        height: 32px/2;
+        margin: auto;
+      }
+    }
+
+    .menu {
+      width: 44px/2;
+      height: 32px/2;
+      margin: auto 35px/2 auto 40px/2;
+    }
+  }
+
+  /*广告logo*/
+
+  article {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 360px/2;
+    }
+  }
+
+  /*精选*/
+
+  .choiceness {
+    width: 100%;
+    height: 200px/2;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    div {
+      margin: auto;
+
+      img {
+        width: 96px/2;
+        height: 96px/2;
+      }
+
+      p {
+        font-size: 24px/2;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+  }
+
+  .beautyin {
+    width: 100%;
+    height: 420px/2;
+    background: rgba(255, 255, 255, 1);
+  }
+
+  /*精选装修公司*/
+
+  .company {
+    width: 100%;
+    height: 843px/2;
+
+    .company-list {
+      width: 702px/2;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .list-children {
+        width: 226px/2;
+        height: 329px/2;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(238, 238, 238, 1);
+        border-radius: 8px/2;
+        margin-bottom: 20px/2;
+        position: relative;
+
+        .information {
+          width: 223px/2;
+          margin: auto;
+
+          p {
+            margin: 0 auto;
+          }
+
+          .text {
+            font-size: 28px/2;
+            font-weight: bold;
+            color: rgba(51, 51, 51, 1);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+          }
+
+          div {
+            width: 140px/2;
+            margin: 12px/2 auto 0 auto;
+
+            .star {
+              display: flex;
+              justify-content: space-between;
+
+              img {
+                width: 20px/2;
+                height: 20px/2;
+              }
+            }
+
+            .grade {
+              font-size: 24px/2;
+              text-align: center;
+              margin-top: 4.8px/2;
+            }
+          }
+        }
+
+        footer {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 50px/2;
+          background: rgba(51, 153, 255, 1);
+          border-radius: 0 0 8px/2 8px/2;
+          display: flex;
+          line-height: 50px/2;
+
+          img {
+            width: 32px/2;
+            height: 32px/2;
+            margin: auto 10px/2 auto 44px/2;
+          }
+
+          span {
+            font-size: 24px/2;
+            color: rgba(255, 255, 255, 1);
+            flex: 1;
+          }
+        }
+
+        .icon {
+          width: 100%;
+          height: 150px/2;
+          display: flex;
+
+          img {
+            width: 152px/2;
+            height: auto;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+
+
+  /*精选活动*/
+
+  .activity {
+    width: 100%;
+    height: 455px/2;
+
+    .banner {
+      width: 100%;
+      height: 300px/2;
+
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+
+        .swiper-slide {
+          display: flex;
+          //width: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px/2;
+          }
+        }
+      }
+    }
+  }
+
+  /*积分换礼*/
+
+  .integralceremony {
+    width: 702px/2;
+    margin: auto;
+
+    .guanggao {
+      width: 100%;
+      height: auto;
+    }
+
+    .integrallist {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .integralone {
+        width: 340px/2;
+        margin-top: 40px/2;
+
+        img {
+          border: 1px solid #f0f0f0;
+          width: 340px/2;
+          height: 340px/2;
+          border-radius: 8px/2;
+        }
+
+        .integralprice {
+          font-size: 24px/2;
+
+          p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-top: 20px/2;
+          }
+        }
+      }
+    }
+  }
+
+  /*广告*/
+
+  .advertising {
+    position: relative;
+    width: 100%;
+    height: 120px/2;
+    background: rgba(255, 243, 229, 1);
+    margin-top: 50px/2;
+    text-align: center;
+    line-height: 120px/2;
+    font-size: 32px/2;
+
+    .gift {
+      position: absolute;
+      width: 80px/2;
+      height: 87px/2;
+      top: 17px/2;
+      left: 61px/2;
+    }
+
+    .gobutton {
+      position: absolute;
+      width: 120px/2;
+      height: 60px/2;
+      top: 30px/2;
+      right: 44px/2;
+    }
+  }
+
+  /*精选案例*/
+
+  .choicenesscase {
+    width: 702px/2;
+    margin: auto;
+
+    .mold {
+      width: 400px/2;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 39px/2;
+
+      .account {
+        width: 120px/2;
+        height: 50px/2;
+        background: rgba(238, 238, 238, 1);
+        border-radius: 24px/2;
+        font-size: 28px/2;
+        color: rgba(102, 102, 102, 1);
+        text-align: center;
+        line-height: 50px/2;
+        border: 1px solid rgba(238, 238, 238, 1);
+      }
+
+      .active {
+        width: 120px/2;
+        height: 50px/2;
+        border-radius: 24px/2;
+        font-size: 28px/2;
+        color: rgba(233, 85, 4, 1);
+        text-align: center;
+        line-height: 50px/2;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 85, 4, 1);
+      }
+    }
+  }
+
+  .moldbox {
+    width: 100%;
+    height: 316px/2;
+    margin-bottom: 40px/2;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    .moldboxlist {
+      margin-left: 24px/2;
+      width: 1679px/2;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 256px/2;
+        border-radius: 8px/2;
+      }
+
+      img:last-child {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  /*10秒预估报价*/
+
+  .decoration {
+    width: 100%;
+    height: 985px/2;
+    position: relative;
+
+    .baojia {
+      width: 100%;
+      height: auto;
+    }
+
+    .rectangle {
+      color: #333;
+      position: absolute;
+      top: 176px/2;
+      left: 24px/2;
+      width: 702px/2;
+      height: 769px/2;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 0 16px/2 0 rgba(0, 0, 0, 0.25);
+      border-radius: 8px/2;
+
+
+      .change {
+        width: 100%;
+
+        .title {
+          position: relative;
+          width: 662px/2;
+          height: 88px/2;
+          background: rgba(255, 255, 255, 1);
+          border: 1px solid rgba(204, 204, 204, 1);
+          border-radius: 8px/2;
+          margin: 20px/2 auto;
+          text-indent: 13px/2;
+          line-height: 88px/2;
+          font-size: 28px/2;
+
+          img {
+            position: absolute;
+            right: 21px/2;
+            bottom: 37px/2;
+            width: 27px/2;
+            height: 17px/2;
+          }
+
+
+          span {
+            display: inline-block;
+            margin-left: 30px/2;
+          }
+        }
+
+        .framChange {
+          width: 662px/2;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          height: 500px/2;
+          border: 1px solid rgba(202, 202, 202, 1);
+          border-radius: 0 0 8px/2 8px/2;
+          border-top: 0;
+          position: absolute;
+          top: 510px/2;
+          left: 19px/2;
+          background: white;
+          z-index: 99;
+
+          ul {
+            width: 662px/2;
+            list-style: none;
+            margin: auto 0 auto 10px/2;
+            font-size: 28px/2;
+
+            li {
+              margin: 20px/2 0;
+              text-align: center;
+              line-height: 60px/2;
+              width: 140px/2;
+              height: 60px/2;
+              background: rgba(238, 238, 238, 1);
+              border-radius: 8px/2;
+            }
+          }
+
+          .check {
+            background: rgba(255, 90, 0, 1);
+            color: white;
+          }
+        }
+      }
+
+
+      .calculate {
+        display: block;
+        width: 662px/2;
+        height: 160px/2;
+        margin: 31px/2 auto 20px/2 auto;
+      }
+
+      .pulldown {
+        position: relative;
+        width: 654px/2;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .pulldownlistOne {
+        margin-top: 10px;
+      }
+
+      .pulldownlist {
+        position: relative;
+        width: 316px/2;
+        height: 88px/2;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(204, 204, 204, 1);
+        border-radius: 8px/2;
+        font-size: 28px/2;
+        text-indent: 20px/2;
+        line-height: 88px/2;
+
+        input {
+          width: 172px/2;
+          height: 100%;
+          font-size: 28px/2;
+          font-weight: 400;
+        }
+
+        img {
+          width: 27.36px/2;
+          height: 16.64px/2;
+          position: absolute;
+          bottom: 34.08px/2;
+          right: 24.96px/2;
+        }
+
+        .selectBox {
+          width: 100%;
+
+          .selectBox_list {
+            width: 317px/2;
+            font-size: 28px/2;
+            border: 1px solid rgba(204, 204, 204, 1);
+            border-top: none;
+            border-radius: 0 0 8px/2 8px/2;
+            position: absolute;
+            top: 76.8px/2;
+            left: -1.4px;
+            z-index: 999;
+            background: white;
+            display: block;
+          }
+        }
+      }
+
+      // 选择厅室
+
+      .feedin {
+        display: block;
+        width: 662px/2;
+        height: 88px/2;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(204, 204, 204, 1);
+        border-radius: 8px/2;
+        margin: 0 auto 16px/2;
+        font-weight: bold;
+        line-height: 88px/2;
+        text-indent: 20px/2;
+        font-size: 28px/2;
+        font-weight: 400;
+      }
+
+      input::-webkit-input-placeholder {
+        font-weight: 400;
+        /* placeholder颜色  */
+        color: #333;
+      }
+    }
+
+    .headline {
+      position: absolute;
+      top: 54.4px/2;
+      left: 158px/2;
+      width: 468px/2;
+      height: 76px/2;
+      background: rgba(14, 198, 220, 1);
+      font-size: 48px/2;
+      line-height: 76px/2;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+    }
+  }
+
+  /*精选设计师*/
+
+  .handpickstylist {
+    width: 702px/2;
+    height: 536px/2;
+    margin: auto;
+
+    .designbox {
+      width: 100%;
+      height: 370px/2;
+      overflow-y: hidden;
+      overflow-x: auto;
+      padding-bottom: 10px;
+
+      .designlist {
+        width: 1684px/2;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .designlistone {
+          width: 264px/2;
+          height: 100%;
+          box-shadow: 0 5px/2 10px/2 0 rgba(51, 51, 51, 0.08);
+          border-radius: 8px/2;
+          background: white;
+
+          img {
+            width: 264px/2;
+            height: 264px/2;
+            border-radius: 8px/2 8px/2 0 0;
+          }
+
+          .txt {
+            p {
+              margin-left: 5px/2;
+            }
+
+            .p1 {
+              font-size: 28px/2;
+              font-weight: bold;
+              color: rgba(51, 51, 51, 1);
+            }
+
+            .p2 {
+              font-size: 24px/2;
+              line-height: 24px/2;
+              margin-top: 18px/2;
+              color: #999;
+
+              span:nth-child(2) {
+                margin-left: 19px/2;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/*装修课堂*/
+
+.decorationlesson {
+  width: 750px/2;
+  //height: 620px/2;
+  margin: auto;
+
+
+  .img_logo {
+    width: 702px/2;
+    height: 300px/2;
+    border-radius: 8px/2;
+    margin: 0 24px/2 24px/2 24px/2;
+    position: relative;
+
+    p {
+      position: absolute;
+      height: 40px/2;
+      background: rgba(0, 0, 0, 0.3);
+      right: 0;
+      bottom: 5px;
+      color: white;
+      font-size: 24px/2;
+      line-height: 20px;
+      padding: 0 10px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .designationname {
+    display: flex;
+    justify-content: space-between;
+    //margin-top: 24px;
+    margin-left: 24px/2;
+    margin-right: 41px/2;
+    align-items: center;
+
+    p:nth-child(1) {
+      font-size: 28px/2;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+
+    }
+
+    p:nth-child(2) {
+      font-size: 24px/2;
+      color: #666666;
+    }
+  }
+
+  .finish {
+    width: 702px/2;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .finishLeft {
+      display: flex;
+      flex-direction: column;
+
+      p:first-child {
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 19px/2;
+      }
+
+      p:last-child {
+        color: #666;
+        font-size: 12px;
+      }
+    }
+
+    .enroll {
+      margin: auto 0;
+      width: 180px/2;
+      height: 60px/2;
+      background: rgba(233, 85, 4, 1);
+      border-radius: 8px/2;
+      color: #fff;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+
+
+}
+
+/*在线问答*/
+
+.answer {
+  width: 100%;
+
+  .questions {
+    width: 100%;
+    height: 100px/2;
+    background: rgba(245, 245, 245, 1);
+
+    .boxx {
+      width: 560px/2;
+      height: 100%;
+      border: none;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      .questions_1, .questions_2 {
+        width: 260px/2;
+        height: 60px/2;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 29px/2;
+        margin-top: 20px/2;
+        font-size: 28px/2;
+        color: rgba(51, 51, 51, 1);
+        line-height: 60px/2;
+        position: relative;
+        text-indent: 84px/2;
+
+        .ask {
+          width: 34px/2;
+        }
+
+        .ask, .response {
+          position: absolute;
+          top: 13px/2;
+          left: 30px/2;
+          width: 36px/2;
+          height: 36px/2;
+          font-size: 28px/2;
+        }
+      }
+    }
+  }
+
+  /*答疑列表*/
+
+  /*热门提问*/
+
+  .mentoringbox {
+    width: 700px/2;
+    margin: auto;
+
+    .mentoringlist {
+      width: 100%;
+      padding: 48px/2 0 25px/2;
+      border-bottom: 1px solid rgba(248, 248, 248, 1);
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 188px/2;
+        height: 188px/2;
+        border-radius: 10px/2;
+      }
+
+      .mentoringone {
+        width: 450px/2;
+
+        h1 {
+          font-size: 32px/2;
+          color: rgba(51, 51, 51, 1);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+
+          span {
+            width: 70px/2;
+            height: 30px/2;
+            background: rgba(233, 85, 4, 1);
+            border-radius: 14px/2;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 20px/2;
+            color: rgba(255, 255, 255, 1);
+            text-indent: 36px/2;
+            position: relative;
+
+            img {
+              width: 33px/2;
+              height: 26px/2;
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
+
+        .twolines {
+          width: 100%;
+          font-size: @small-size;
+          color: rgba(102, 102, 102, 1);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          margin-top: 40px/2;
+        }
+
+        .threelines {
+          width: 44px/2;
+          height: 2px/2;
+          background: rgba(153, 153, 153, 0.8);
+          margin-top: 35px/2;
+        }
+
+        .fourlines {
+          font-size: 24px/2;
+          color: rgba(153, 153, 153, 1);
+          margin-top: 24px/2;
+        }
+      }
+
+
+      .active {
+        width: 100%;
+
+        h1 {
+          font-size: 32px/2;
+          color: rgba(51, 51, 51, 1);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+
+          span {
+            width: 70px/2;
+            height: 30px/2;
+            line-height: 15px;
+            background: rgba(233, 85, 4, 1);
+            border-radius: 14px/2;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 20px/2;
+            color: rgba(255, 255, 255, 1);
+            text-indent: 36px/2;
+            position: relative;
+
+            img {
+              width: 33px/2;
+              height: 26px/2;
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
+
+        .twolines {
+          width: 100%;
+          font-size: @small-size;
+          color: rgba(102, 102, 102, 1);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          margin-top: 40px/2;
+        }
+
+        .threelines {
+          width: 44px/2;
+          height: 2px/2;
+          background: rgba(153, 153, 153, 0.8);
+          margin-top: 35px/2;
+        }
+
+        .fourlines {
+          font-size: 24px/2;
+          color: rgba(153, 153, 153, 1);
+          margin-top: 24px/2;
+        }
+      }
+    }
+  }
+}
+
+/*百万业主*/
+
+.million {
+  width: 100%;
+  height: 120px/2;
+  display: flex;
+
+  img {
+    width: 702px/2;
+    height: 100px/2;
+    border-radius: 12px/2;
+    margin: auto;
+  }
+}
+
+/*对比弹出层*/
+
+.mark {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+
+  .mark_content {
+    width: 500px/2;
+    height: 676px/2;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px/4;
+    margin-top: -676px/4;
+
+    .close {
+      position: absolute;
+      top: 34px/2;
+      right: 20px/2;
+      width: 44px/2;
+      height: 44px/2;
+    }
+
+    h1 {
+      display: inline-block;
+      font-size: 32px/2;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+      margin: 40px/2 0 0 30px/2;
+    }
+
+    .choicelist {
+      width: 460px/2;
+      height: 80px/2;
+      background: rgba(238, 238, 238, 1);
+      margin: 24px/2 auto 0;
+      position: relative;
+
+      span {
+        display: inline-block;
+        width: 100%;
+        line-height: 80px/2;
+        background: rgba(51, 153, 254, 1);
+        font-size: 28px/2;
+        color: rgba(255, 255, 255, 1);
+        font-weight: bold;
+        text-indent: 20px/2;
+      }
+
+      img {
+        position: absolute;
+        width: 40px/2;
+        height: 40px/2;
+        top: 50%;
+        margin-top: -40px/4;
+        left: 50%;
+        margin-left: -40px/4;
+      }
+    }
+
+    p {
+      width: 460px/2;
+      height: 88px/2;
+      border-radius: 8px/2;
+      border: 1px solid rgba(233, 85, 4, 1);
+      margin: 20px/2 auto;
+      text-align: center;
+      line-height: 88px/2;
+      font-size: 28px/2;
+      font-weight: bold;
+    }
+  }
+
+  /*立即报名*/
+
+  .markapply {
+    width: 702px/2;
+    height: 483px/2;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px/2;
+    border: 1px solid rgba(204, 204, 204, 1);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -704px/4;
+    margin-top: -368px/4;
+
+    .close {
+      position: absolute;
+      top: 22px/2;
+      right: 22px/2;
+      width: 44px/2;
+      height: 44px/2;
+    }
+
+    h1 {
+      display: inline-block;
+      width: 100%;
+      height: 100px/2;
+      line-height: 100px/2;
+      background: rgba(248, 248, 248, 1);
+      font-size: 32px/2;
+      font-weight: bold;
+      border-radius: 8px/2;
+      color: rgba(255, 90, 0, 1);
+      text-indent: 20px/2;
+    }
+
+    input {
+      display: block;
+      margin: 30px/2 auto 0;
+      width: 662px/2;
+      height: 80px/2;
+      background: rgba(255, 255, 255, 1);
+      border: 1px solid rgba(219, 219, 219, 1);
+      border-radius: 8px/2;
+      text-indent: 20px/2;
+      font-size: 28px/2;
+    }
+
+    span {
+      display: block;
+      margin: 30px/2 auto 0;
+      width: 220px/2;
+      height: 80px/2;
+      background: rgba(233, 85, 4, 1);
+      border: 1px solid rgba(233, 85, 4, 1);
+      border-radius: 8px/2;
+      text-align: center;
+      line-height: 80px/2;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .p_one {
+      width: 100%;
+      height: 100px/2;
+      background: rgba(248, 248, 248, 1);
+      border-radius: 8px/2;
+    }
+
+    div {
+      margin: 70px/2 auto 127px/2;
+      width: 250px/2;
+      display: flex;
+      font-size: 30px/2;
+      font-weight: bold;
+      color: rgba(255, 90, 0, 1);
+
+      img {
+        width: 46px/2;
+        height: 44px/2;
+        margin: auto;
+      }
+    }
+
+    .p_two {
+      margin: 44px/2 auto 25px/2;
+      width: 250px/2;
+      display: flex;
+      font-size: 30px/2;
+      font-weight: bold;
+      color: rgba(255, 90, 0, 1);
+    }
+
+    .p_three {
+      color: #666666;
+      font-size: 24px/2;
+      line-height: 36px/2;
+      text-align: center;
+    }
+
+    .p_four {
+      margin-top: 60px/2;
+    }
+  }
+
+
+}
+
+.ntegral_box {
+  .day {
+    margin: 10px auto 0 auto;
+    width: calc(702px / 2);
+    display: flex;
+    padding-left: 5px;
+
+    div {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    div > span:nth-of-type(2) {
+      background: rgba(227, 227, 227, 1);
+      width: .5px;
+      margin-left: 10px;
+    }
+
+    span {
+      height: 24px;
+      line-height: 24px;
+      font-size: 14px;
+      margin: auto 0;
+    }
+  }
+
+  img {
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+  }
+
+}
+
+

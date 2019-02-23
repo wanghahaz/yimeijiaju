@@ -1,0 +1,314 @@
+@import "../../../static/css/header.less";
+@import "../../../static/css/overall.less";
+
+.me {
+  width: 100%;
+
+  .headernavigation {
+    z-index: 1000;
+    .search{
+      width:44px/2;
+      height: auto;
+    }
+
+  }
+
+  //头像
+  .me-material {
+    width: 100%;
+    height: 341px/2;
+    background: linear-gradient(to left, #F99c70 100% #FD772E 90%);
+    margin-top: 88px/2;
+    position: relative;
+    z-index: 50;
+
+    .me-material-box {
+      display: flex;
+      position: absolute;
+      top: 91px/2;
+      left: 49px/2;
+
+      .header {
+        width: 90px/2;
+        height: 90px/2;
+        border-radius: 50%;
+      }
+
+      div {
+        color: white;
+        margin-left: 21px/2;
+
+        p:first-child {
+          font-size: 36px/2;
+        }
+
+        p:last-child {
+          font-size: 22px/2;
+          margin-top: 5px;
+        }
+
+        img {
+          width: 10px/2;
+          height: 17px/2;
+          color: white;
+        }
+      }
+    }
+
+    .me-material-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      color: white;
+      position: absolute;
+      bottom: 25px/2;
+
+      .me-material-one {
+        margin: auto;
+
+        p:last-child {
+          margin-top: 28px/2;
+        }
+      }
+
+      .me-material-two {
+        width: 1px/2;
+        height: 42px/2;
+        background: rgba(255, 255, 255, 1);
+        margin: auto 0;
+      }
+    }
+  }
+
+  //  我的积分
+  .me-integral {
+    width: 100%;
+    height: 132px/2;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+    font-size: @small-size;
+    line-height: 132px/2;
+
+    img {
+      width: 35px/2;
+      height: 36px/2;
+      vertical-align: middle;
+      margin: 0 24px/2 0 25px/2;
+    }
+
+    .exchange {
+      width: 120px/2;
+      height: 60px/2;
+      background: #E7561E;
+      border-radius: 30px;
+      margin: auto 13px;
+      line-height: 60px/2;
+      text-align: center;
+      color: white;
+    }
+  }
+
+  .leave-white {
+    width: 100%;
+    height: 20px/2;
+    background: rgba(248, 248, 248, 1);
+  }
+
+  //  积分签到
+  .signIntegral {
+
+    width: 100%;
+    height: 216px/2;
+    padding-top: 15px;
+  }
+
+  //  消息中心
+  .informationCentre {
+    width: 702px/2;
+    margin: auto;
+
+    .informationCentre_header {
+      width: 100%;
+      font-size: 32px/2;
+      display: inline-block;
+      padding: 49px/2 0 29px/2 0;
+      border-bottom: 1px solid rgba(242, 242, 242, 1);
+    }
+
+    .informationCentre-list {
+      width: 100%;
+      display: flex;
+      padding-bottom: 20px;
+      justify-content: space-between;
+
+      .informationCentre-box {
+        margin-top: 34px/2;
+        text-align: center;
+        color: #333333;
+        font-size: @size;
+
+        img {
+          width: 90px/2;
+          height: 90px/2;
+        }
+
+        p {
+          padding-top: 5px;
+
+        }
+      }
+    }
+
+    .informationHua {
+      display: flex;
+      justify-content: space-around;
+
+      .informationCentre-box {
+        img {
+          width: 170px/2;
+          height: 171px/2;
+        }
+
+        p {
+          margin-top: -15px;
+        }
+      }
+    }
+
+    .register {
+      width: 692px/2;
+      height: 90px/2;
+      border: 1px solid rgba(231, 86, 30, 1);
+      box-shadow: 0 3px/2 7px/2 0 rgba(0, 0, 0, 0.03);
+      border-radius: 6px/2;
+      margin: 10px auto 33px;
+      font-size: 30px/2;
+      line-height: 45px;
+      text-align: center;
+      color: #E7561E;
+    }
+  }
+
+  .individual {
+    width: 100%;
+    font-size: 32px/2;
+
+    .individual_header {
+      display: inline-block;
+      padding: 69px/2 0 29px/2 12px;
+    }
+
+    .grid-center {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: @size;
+      color: rgba(102, 102, 102, 1);
+
+      .one {
+        width: 36px/2;
+        height: 42px/2;
+        margin: 35px/2 auto 19px/2;
+      }
+
+      .two {
+        width: 36px/2;
+        height: 43px/2;
+        margin: 33px/2 auto 19px/2;
+      }
+
+      .three {
+        width: 40px/2;
+        height: 40px/2;
+        margin: 35px/2 auto 21px/2;
+      }
+
+      .four {
+        width: 38px/2;
+        height: 36px/2;
+        margin: 37px/2 auto 22px/2;
+      }
+
+      .five {
+        width: 38px/2;
+        height: 38px/2;
+        margin: 35px/2 auto 20px/2;
+      }
+
+      .six {
+        width: 32px/2;
+        height: 37px/2;
+        margin: 35px/2 auto 21px/2;
+      }
+
+      .seven {
+        width: 38px/2;
+        height: 38px/2;
+        margin: 36px/2 auto 20px/2;
+      }
+
+      .eight {
+        width: 40px/2;
+        height: 40px/2;
+        margin: 33px/2 auto 21px/2;
+      }
+    }
+  }
+
+  //  底部热线
+  footer {
+    font-size: @small-size;
+    padding: 70px/2 0;
+    text-align: center;
+
+    span {
+      color: #E7561E;
+    }
+  }
+
+  // 头部模态框
+  .cephalosome {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-tap-highlight-color:transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+
+    .cephalosomebox {
+      width: (240px/2);
+      background: rgba(255, 255, 255, 1);
+      position: relative;
+      top: (90px/2);
+      left: (486px/2);
+
+      .cephalosomeboxlist {
+        display: inline-block;
+        width: (240px/2);
+        height: (88px/2);
+        border-bottom: 1px solid #E7E7E7;
+        margin: auto;
+        line-height: (88px/2);
+        font-size: (28px/2);
+        color: rgba(51, 51, 51, 1);
+
+        img {
+          width: (32px/2);
+          height: (36px/2);
+          margin-right: (20px/2);
+          margin-left: (22px/2);
+          vertical-align: middle;
+        }
+        .tuichu,.shouye{
+          width: 36px/2;
+          height: auto;
+        }
+      }
+    }
+  }
+}
